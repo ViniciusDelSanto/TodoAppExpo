@@ -37,19 +37,19 @@ TodoAppExpo/
 ```
 
 ## Descrição dos Arquivos
-src/components/: Contém componentes reutilizáveis, como o TaskCard.\
+src/components/: Contém componentes reutilizáveis, como o TaskCard.
 
-src/context/: Contém os contextos globais para gerenciar tarefas (TaskContext) e tema (ThemeContext).\
+src/context/: Contém os contextos globais para gerenciar tarefas (TaskContext) e tema (ThemeContext).
 
-src/screens/: Contém as telas do aplicativo (TodoScreen, DoingScreen, DoneScreen).\
+src/screens/: Contém as telas do aplicativo (TodoScreen, DoingScreen, DoneScreen).
 
-App.js: Ponto de entrada do aplicativo, onde a navegação e o tema são configurados.\
+App.js: Ponto de entrada do aplicativo, onde a navegação e o tema são configurados.
 
-.gitignore: Ignora arquivos desnecessários, como node_modules e builds.\
+.gitignore: Ignora arquivos desnecessários, como node_modules e builds.
 
-README.md: Documentação do projeto (este arquivo).\
+README.md: Documentação do projeto (este arquivo).
 
-package.json: Lista as dependências e scripts do projeto.\
+package.json: Lista as dependências e scripts do projeto.
 
 # 5. Como Executar o Projeto
 
