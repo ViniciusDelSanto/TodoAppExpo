@@ -146,6 +146,8 @@ Se você tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em c
 
 GitHub: https://github.com/ViniciusDelSanto
 
+LinkedIn: https://www.linkedin.com/in/vinícius-del-santo/
+
 E-mail: [vinimail7@gmail.com]
 
 Desenvolvido com ❤️ por Vinicius Del Santo.

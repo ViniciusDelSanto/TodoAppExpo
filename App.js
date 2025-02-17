@@ -10,7 +10,6 @@ import { Button } from 'react-native';
 
 const Tab = createBottomTabNavigator();
 
-// Componente para alternar o tema
 const ThemeToggleButton = () => {
   const theme = React.useContext(ThemeContext);
 
@@ -22,7 +21,6 @@ const ThemeToggleButton = () => {
   );
 };
 
-// Componente principal do aplicativo
 const MainApp = () => {
   const theme = React.useContext(ThemeContext);
 
@@ -32,14 +30,14 @@ const MainApp = () => {
         screenOptions={{
           headerRight: () => <ThemeToggleButton />,
           tabBarStyle: {
-            backgroundColor: theme.colors.cardBackground, // Cor de fundo da hotbar
+            backgroundColor: theme.colors.cardBackground,
           },
-          tabBarActiveTintColor: theme.colors.buttonBackground, // Cor do ícone ativo
-          tabBarInactiveTintColor: theme.colors.text, // Cor do ícone inativo
+          tabBarActiveTintColor: theme.colors.buttonBackground, 
+          tabBarInactiveTintColor: theme.colors.text, 
           headerStyle: {
-            backgroundColor: theme.colors.cardBackground, // Cor de fundo do cabeçalho
+            backgroundColor: theme.colors.cardBackground, 
           },
-          headerTintColor: theme.colors.text, // Cor do título do cabeçalho
+          headerTintColor: theme.colors.text,
         }}
       >
         <Tab.Screen
@@ -62,7 +60,6 @@ const MainApp = () => {
   );
 };
 
-// Componente raiz do aplicativo
 export default function App() {
   return (
     <ThemeProvider>
