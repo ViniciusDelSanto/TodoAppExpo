@@ -29,7 +29,6 @@ const DoneScreen = () => {
     ...archivedTasks.map((task) => ({ ...task, type: 'archived' })),
   ];
 
-  // Função para renderizar cada item da lista
   const renderItem = ({ item }) => {
     if (item.type === 'header') {
       return <SectionTitle theme={theme}>{item.title}</SectionTitle>;

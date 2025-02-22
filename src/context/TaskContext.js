@@ -6,7 +6,7 @@ export const TaskProvider = ({ children }) => {
   const [todoTasks, setTodoTasks] = useState([]);
   const [doingTasks, setDoingTasks] = useState([]);
   const [doneTasks, setDoneTasks] = useState([]);
-  const [archivedTasks, setArchivedTasks] = useState([]); // Novo estado para tarefas arquivadas
+  const [archivedTasks, setArchivedTasks] = useState([]);
 
   const addTask = (task) => {
     setTodoTasks([...todoTasks, task]);
@@ -40,7 +40,7 @@ export const TaskProvider = ({ children }) => {
     const task = doneTasks.find((t) => t.id === taskId);
     if (task) {
       setDoneTasks(doneTasks.filter((t) => t.id !== taskId));
-      setArchivedTasks([...archivedTasks, task]); // Adiciona a tarefa à lista de arquivadas
+      setArchivedTasks([...archivedTasks, task]);
     }
   };
 
